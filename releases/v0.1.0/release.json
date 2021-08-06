@@ -1,6 +1,6 @@
 {
     "$schema": "http://w3id.org/opentecr/schema/release/v1.0.0",
-    "@id": "http://w3id.org/opentecr/release/v1.0.0",
+    "@id": "http://w3id.org/opentecr/release/v0.1.0",
     "identifiers_of_data_included_in_this_release" : [
         "http://w3id.org/opentecr/data/c7ca5ae0-c27e-41fe-ac7b-6d90a031c4c9/v1.0.0"
     ]
