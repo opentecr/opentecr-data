@@ -1,0 +1,49 @@
+{
+    "$schema": "http://w3id.org/opentecr/schema/data/v1.0.0",
+    "@id": "http://w3id.org/opentecr/data/{UUID}/v1.0.0",
+
+    "CuratedMeasurement": {
+        "reference": {
+          "pubmedId": "",
+          "doi": "", // COMMENT: give doi in format https://doi.org/...
+          "url": "", // COMMENT: might be the same as doi
+          "title": "",
+          "authors": "", // TODO : ORCIDs?!
+          "year": 9999
+          },
+        "curator": {
+          "orcid": "", // COMMENT: give in format https://orcid.org/...
+          "name": ""
+        },
+        "representative_reaction": {
+          "rinchi": "RInChI=1.00.1S/...", // COMMENT: mind the directionality with d+ or d-
+          "rinchiKey": "Web-RInChIKey=...", // TODO : let's use Web-RInChI here!
+          "names": [
+              "substrate1",
+              "product1"
+          ],
+          "annotation": [
+              {
+                  "namespace": "rhea",
+                  "identifier": "99999"
+              }
+          ],
+          "stoichiometry": {
+            // TODO : definition of stoichiometry is unclear to me
+            "substrate1" : -1,
+            "product1": 1
+          }
+        },
+        "equilibriumConstant": 9999, // TODO : needs to be extracted graphically more exact
+        "hydrogenPotential": 9999,
+        // "magnesiumPotential": not-determinable-from-publication,
+        "temperature": 200.15,
+        // "ionicStrength": not-determinable-from-publication,
+      },
+      "ActualInformation": {
+        "md5_of_pdf": "...",
+        "doi_of_zenodo_archive": "https://doi.org/10.5281/zenodo.FOOBAR", // COMMENT: give as https://doi.org/10.5281/zenodo...
+        "download_url_of_zenodo_archive": "https://zenodo.org/record/FOOBAR/files/FOOBARSPAM.pdf?download=1",
+        "comments": ""
+    }
+}
