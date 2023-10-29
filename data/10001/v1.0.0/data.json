@@ -1,6 +1,6 @@
 {
     "$schema": "http://w3id.org/opentecr/schema/data/v1.0.0",
-    "@id": "http://w3id.org/opentecr/data/0001/v1.0.0",
+    "@id": "http://w3id.org/opentecr/data/10001/v1.0.0",
 
     "CuratedMeasurement": {
         "reference": {
